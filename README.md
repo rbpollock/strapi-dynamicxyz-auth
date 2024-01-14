@@ -1,18 +1,13 @@
 # Strapi Plugin Dynamic.xyz Authentication
 
-Welcome to the Strapi plugin for Dynamic.xyz Authentication! This plugin seamlessly integrates Dynamic.xyz Authentication with
-your Strapi Headless CMS, allowing you to manage and authenticate Dynamic.xyz users directly from the Strapi moderation
-panel. This guide will take you through the installation and configuration process and provide information on how to use
-this plugin with iOS and Android apps. This plugin would be enabled by default for super admins only.
+Welcome to the Strapi plugin for Dynamic.xyz Authentication! This plugin seamlessly integrates Dynamic.xyz Authentication with your Strapi Headless CMS, allowing you to manage and authenticate Dynamic.xyz users directly from the Strapi moderation panel. This guide will take you through the installation and configuration process and provide information on how to use this plugin with iOS and Android apps. This plugin would be enabled by default for super admins only.
 
-This package is based on the Strapi Plugin for Firebase Authentication by @swensonne.
+This package is based on the **Strapi Plugin for Firebase Authentication** by @swensonhe.
 https://github.com/swensonhe/strapi-firebase-auth
 
 ## How it works
 
-The Dynamic.xyz Auth plugin works by authenticating users using Dynamic.xyz API Authentication. Once a user is authenticated, the
-plugin creates a Strapi user account for them if it doesn't already exist. The plugin also syncs the user's Dynamic.xyz
-data for a specific environment with their Strapi account.
+The Dynamic.xyz Auth plugin works by authenticating users using Dynamic.xyz API Authentication. Once a user is authenticated, theplugin creates a Strapi user account for them if it doesn't already exist. The plugin also syncs the user's Dynamic.xyz data for a specific environment with their Strapi account.
 
 ## Table of Contents
 
